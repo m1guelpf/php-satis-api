@@ -1,0 +1,28 @@
+{
+    "name": "m1guelpf/satis-api",
+    "description": "Simple PHP Client for interacting with Satis instances",
+    "keywords": [
+        "satis",
+        "satis-api",
+        "m1guelpf"
+    ],
+    "homepage": "https://github.com/m1guelpf/php-satis-api",
+    "license": "MPL-2.0",
+    "authors": [
+        {
+            "name": "Miguel Piedrafita",
+            "email": "soy@miguelpiedrafita.com",
+            "homepage": "https://miguelpiedrafita.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^5.5|^7.0",
+        "guzzlehttp/guzzle":"^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "M1guelpf\\SatisAPI\\": "src"
+        }
+    }
+}
